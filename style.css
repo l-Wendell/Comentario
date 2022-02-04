@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+}
+
+input{
+    padding-left: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 30px;
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid rgb(77, 77, 247);
+    outline: none;
+}
+
+.enviar{
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 2px;
+    height: 30px;
+    width: 25px;
+    border: none;
+    transition: .5s;
+}
+
+.delete-btn{
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 2px;
+    height: 30px;
+    width: 25px;
+    border: none;
+    transition: .5s;
+}
+
+.delete-btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 42, 42);
+}
+
+.enviar:hover{
+    padding-left: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 247);
+}
+
+ul{
+    list-style: none;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.li-styles{
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 30px;
+    width: 260px;
+    border-radius: 2px;
+}
+
+
+#coments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
